@@ -1,4 +1,4 @@
-# THIS REPO INCLUDES THE FOLLOWING W3School CHAPTERS:
+# THIS REPO INCLUDES W3School THE FOLLOWING CHAPTERS:
 ### - BS5 HOME
 ### - BS5 Getting Started
 ### - BS5 Containers
@@ -6,10 +6,10 @@
 #  Bootstrap Introduction
 
 ## - ❓ What is Bootstrap?
-Bootstrap is a collection of pre-written HTML, CSS and JS code. This helps developers create better websites, faster.
+Bootstrap is a collection of pre-written HTML, CSS, and JS code. This helps developers create better websites faster.
 
 ## - ❓ What version?
-I'm going to be working with Bootstrap 5, which is the latest stable version, although a little unsupported with some browsers, future-proof though. More specifically, as of mid-2025, the latest version is 5.3.x.
+I'm going to be working with Bootstrap 5, which is the latest stable version, although a little unsupported with some browsers, but future-proof, though. More specifically, as of mid-2025, the latest version is 5.3.x.
 
 ## - ❓ Why not other versions?
 Bootstrap 3 has gone obsolete - it should only be used to maintain legacy projects.
@@ -31,4 +31,4 @@ CDN Code:
 <!-- Latest compiled JavaScript -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 ```
-Using CDN has some advantages over downloading it, like having the choice not to use the JS part of Bootstrap when you don't need it, and also can be faster to access for users.
+Using CDN has some advantages over downloading it, like having the choice not to use the JS part of Bootstrap when you don't need it, and it can also be faster to access for users.
