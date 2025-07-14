@@ -12,29 +12,17 @@
     <title>Getting started with Bootstrap 5</title>
   </head>
   <body>
-    <div class="container">
-      <h1>.container</h1>
-      <p>I don't have a spacing utility set on me!</p>
+    <div class="container p-5 my-5 border">
+      <h1>border</h1>
+      <p>I only have a border applied, but I have extra margins, and padding.</p>
     </div>
-    <div class="container pt-3">
-      <h1>.container</h1>
-      <p>
-        I have a pt-3 spacing utility set on me, so I have 3rem padding-left!
-      </p>
-      <p>pt-3 stands for padding-top: 3rem!</p>
+    <div class="container p-5 my-5 bg-dark text-white">
+      <h1>bg-dark text-white</h1>
+      <p>My background is dark, and my text is white. I also have extra margins, and padding.</p>
     </div>
-    <div class="container m-3 px-5">
-      <h1>.container</h1>
-      <p>
-        I have a m-3 and a px-5 spacing utility set on me, so i have 3rem margin, and 5rem horizontal padding!
-      </p>
+    <div class="container p-5 my-5 bg-primary text-white">
+      <h1>bg-primary text-white border</h1>
+      <p>My background is blue and my text is white. I also have extra margins, and padding.</p>
     </div>
-    <h2>
-        Utilities like these go from 0-5!
-    </h2>
-    <h2>
-      Note: pl-* and pr-* utilities have been removed in BS5, instead it uses ps
-      and pe which stand for padding-inline-start- and end, respectively.
-    </h2>
   </body>
 </html>
