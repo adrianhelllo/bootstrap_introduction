@@ -1,3 +1,7 @@
+# THIS REPO INCLUDES W3School THE FOLLOWING CHAPTERS:
+### - BS5 HOME
+### - BS5 Getting Started
+
 #  Bootstrap Introduction
 
 ## - ❓ What is Bootstrap?
