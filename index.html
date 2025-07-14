@@ -12,17 +12,26 @@
     <title>Getting started with Bootstrap 5</title>
   </head>
   <body>
-    <div class="container p-5 my-5 border">
-      <h1>border</h1>
-      <p>I only have a border applied, but I have extra margins, and padding.</p>
+    <div class="container-sm bg-warning p-3 my-3">
+      <h1>.container-sm</h1>
+      <p>I only have width: 100% below the smallest breakpoint! (576px<)</p>
     </div>
-    <div class="container p-5 my-5 bg-dark text-white">
-      <h1>bg-dark text-white</h1>
-      <p>My background is dark, and my text is white. I also have extra margins, and padding.</p>
+    <div class="container-md bg-warning p-3 my-3">
+      <h1>.container-md</h1>
+      <p>I have width: 100% below the second smallest breakpoint! (>=576px)</p>
     </div>
-    <div class="container p-5 my-5 bg-primary text-white">
-      <h1>bg-primary text-white border</h1>
-      <p>My background is blue and my text is white. I also have extra margins, and padding.</p>
+    <div class="container-lg bg-warning p-3 my-3">
+      <h1>.container-lg</h1>
+      <p>I have width: 100% below the third smallest breakpoint! (>=768px)</p>
     </div>
+    <div class="container-xl bg-warning p-3 my-3">
+      <h1>.container-xl</h1>
+      <p>I have width: 100% below the second largest breakpoint! (>=992px)</p>
+    </div>
+    <div class="container-xxl bg-warning p-3 my-3">
+      <h1>.container-xxl</h1>
+      <p>I have width: 100% below the largest breakpoint! (>=1200px)</p>
+    </div>
+    <h2>None of these elements has width: 100% ABOVE the largest breakpoint, so above 1400px. That'd be a fluid container.</h2>
   </body>
 </html>
